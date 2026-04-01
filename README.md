@@ -1,3 +1,4 @@
+
 # Hospital Performance & Efficiency Analysis
 ![Hospital Banner](https://raw.githubusercontent.com/Archana-sth/hospital-performance-analysis/main/Images/banner.png)
 
@@ -5,7 +6,8 @@
 
 The project analyzes hospital performance using hospital ratings, Medicare spending and unplanned visits data. The goal is to evaluate how efficiently hospitals deliver care and to identify patterns between healthcare spending and patients outcomes.
   
-By combining multiple datasets and using Python and SQL for analysis, the project explores wheather higher Medicare spending leads to better outcomes, high performing and underperforming hospitals and uncovers oppertunities for improving healthcare efficiency. 
+By combining multiple datasets and using Python and SQL for analysis, the project explores whether higher Medicare spending leads to better outcomes, high performing and underperforming hospitals and uncovers opportunities for improving healthcare efficiency.
+
 
 ## Objectives of the Project
 * Analyze hospital performance based on **Medicare spending** and **patient return rates**  
@@ -13,7 +15,6 @@ By combining multiple datasets and using Python and SQL for analysis, the projec
 * Categorize hospitals based on **efficiency** (spending vs patient outcomes) 
 * Provide insights for hospital management and stakeholders 
 * Visualize trend and patterns to support **data driven decision making**  
-
 ## Data Source
 The dataset used in this project are sourced from publicly available healthcare data provided by the **Centers for Medicaid and Medicare Services (CMS)** 
 
@@ -27,8 +28,7 @@ https://data.cms.gov/provider-data/dataset/rrqw-56er#data-table
 
 **3. Unplanned visits Dataset**  
 https://data.cms.gov/provider-data/dataset/632h-zaca
-* Includes visit score, number of patients and Unplanned return visits  
-
+* Includes visit score, number of patients and Unplanned return visits
 ## Data Analysis Steps
 * Collected hospital data (hospital characteristics, medicare spending, unplanned visits)  
 * Cleaned the datasets handling missing/ 'Not Available" values, dropping unnecessary columns, checking duplicates, renaming columns and updating datatypes  
@@ -37,8 +37,7 @@ https://data.cms.gov/provider-data/dataset/632h-zaca
 * Analyzed patterns in spending vs return rate   
 * Categorized hospitals by performance (Efficient, Average, Poor) 
 * Identified top and bottom hospitals by efficiency  
-* Visualized findings using charts  
-
+* Visualized findings using charts
 ## Key Findings
 * Highest rated hospitals tend to operate more efficiently and spend less on average  
 * Higher spending alone does not guarantee better patient outcomes  
@@ -48,12 +47,11 @@ https://data.cms.gov/provider-data/dataset/632h-zaca
 
 ## Tools & Libraries Used
 * **Python** - Programming language used for data processing, analysis and visulization 
-* **SQL** - Language used for data aggredation, joining tables and calculating hospital analysis
+* **SQL** - Language used for data aggregation, joining tables and calculating hospital analysis
 * **Pandas** - Library used for data cleaning, manipulation and analysis  
-* **Matplotlib/Seaborn** - Library used for visulization  
-* **Jupyter Notebook** - Environment used to writing code, running analysis and documenting results  
-* **Bash** - Used for running scripts, managing files and project setup  
-
+* **Matplotlib/Seaborn** - Library used for visualization  
+* **Jupyter Notebook** - Environment for writing and running code  
+* **Bash** - Used for running scripts, managing files and project setup 
 ## Instructions
 Follow the steps below to run this project locally:
 
@@ -73,10 +71,15 @@ git clone https://github.com/Archana-sth/hospital-performance-analysis.git
     + Open the jupyter Noetbook  
     + Then open the project notebook file and run all cells
 * Deactivate Virtual Environment  
-    + deactivate  
+    + deactivate
+## Conclusion
 
-## Conclusion  
+This project analyzed hospital performance by combining Medicare spending, hospital ratings, and unplanned patient visit data to evaluate healthcare efficiency and outcomes.
+The analysis shows that higher spending does not necessarily lead to better patient outcomes. While some hospitals achieve low return rates with lower spending, others with higher spending without improving patient outcomes. This highlights that efficiency in healthcare depends more on effective resource utilization than on spending alone.
 
+Additionally, higher-rated hospitals tend to have slightly better outcomes, but the difference is not significant, suggesting that other factors may also influence patient return rates.
+
+Overall, the analysis shows that spending more money does not always mean better care. What matters more is how hospitals use their resources. These findings can help hospitals make better decisions and improve patient care.
 ## Acknowledgements
 
 * This project was developed with guidance and resources from **Online tutorials and Google searches**  
